@@ -1,5 +1,7 @@
 
 import "./style.css"
+import About from "./About_me/aboutme"
+import Video_btn from "./About_me/video_btn"
 
 function Header()
 {
@@ -19,8 +21,13 @@ function Header()
                 <a href="/services">Services</a>
                 <a href="/blog">Blog</a>
                 <a href="/contact">Contact US</a>
+                
             </div>
+           
             </div>
+             <About/>
+             <Video_btn/>
+
         </div>
         </>
     )
